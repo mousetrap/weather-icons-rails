@@ -21,11 +21,11 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency "railties", ">= 3.2"
 
-  gem.add_development_dependency 'activesupport', '~> 4.1.0'
-  gem.add_development_dependency 'sass-rails', '~> 4.0.1'
-  gem.add_development_dependency 'bundler', '~> 1.3'
-  gem.add_development_dependency 'rake', '~> 10.3.0'
+  gem.add_development_dependency 'activesupport', '>= 4.1.0'
+  gem.add_development_dependency 'sass-rails', '>= 4.0.1'
+  gem.add_development_dependency 'bundler', '>= 1.3'
+  gem.add_development_dependency 'rake', '>= 10.3.0'
   gem.add_development_dependency 'compass'
 
-  gem.add_runtime_dependency 'sass', '~> 3.2'
+  gem.add_runtime_dependency 'sass', '>= 3.2'
 end
